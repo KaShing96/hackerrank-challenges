@@ -1,0 +1,6 @@
+{
+    "driver_name": "geckodriver.exe",
+    "test_folder": "test_cases",
+    "functions": "functions.py",
+    "reference_functions": "functions_base.py"
+}
