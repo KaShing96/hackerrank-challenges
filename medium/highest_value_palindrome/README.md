@@ -1,0 +1,3 @@
+2020.04.17: Success!
+
+2020.04.16: We are redoing the logic, focusing on maximisePalindrome(). Here, we aim to check individually, element by element, if it's a '9'. If it is, we check if we have the moves to change it. If we do, then we implement the change and increment the moves respectively. We need to take into account that a change may already have been made, in which case a move need not be incremented. 
