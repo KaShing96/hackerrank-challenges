@@ -86,8 +86,12 @@ class Driver():
             while True: 
                 contents = [str(x.name) for x in cd.iterdir()]
 
-                if driver_name not in contents:
-                    cd = cd.parent 
+                if driver_name not in contents: 
+                    if cd != cd.parent: 
+                        cd = cd.parent 
+
+                    else:
+                        raise Exception("geckodriver.exe not found.")
 
                 else: 
                     for i in cd.iterdir():
