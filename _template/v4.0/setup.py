@@ -621,8 +621,6 @@ if __name__ == "__main__":
 
         c.success()
 
-        # === Resolve offline code ===
-
     
     except Exception as e:
         d.close()

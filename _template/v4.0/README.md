@@ -8,4 +8,10 @@ Currently, for security reasons, we do not add the absolute path of the destinat
 The script also fails in extracting sample cases for certain HackerRank challenges, such as the one [here](https://www.hackerrank.com/challenges/anagram/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign).
 
 ## Instructions
-Simply run python setup.py "link", replacing 'link' with the link to the HackerRank page containing the challenge. This has not been proven to work on all HackerRank challenges. 
+Simply run: 
+
+```
+python setup.py "link"
+```
+
+replacing 'link' with the link to the HackerRank page containing the challenge. This has not been proven to work on all HackerRank challenges. 
