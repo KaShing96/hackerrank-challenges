@@ -26,7 +26,7 @@ class FolderWriter():
         parent = parent.resolve(strict=True)
 
         # Create folder
-        target_folder = parent / self.title.lower().replace(" ", "_")
+        target_folder = parent / self.title.strip().lower().replace(" ", "_")
         target_folder = target_folder
         target_folder.exists() or target_folder.mkdir()
 
