@@ -56,7 +56,7 @@ if __name__ == "__main__":
     c.success()
 
     # === Set up Driver() resource ===
-    c.start("setting up driver resources")
+    c.start("Setting up driver resources")
 
     try: 
         d = Driver()
